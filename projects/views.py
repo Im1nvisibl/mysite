@@ -4,19 +4,19 @@ from django.http import HttpResponse
 
 projectsList = [
     {
-    'id':'1',
-    'title':"Apple1",
-    'description':'Is the best company'
+        'id':'1',
+        'title':"Apple1",
+        'description':'Is the best company'
     },
     {
-    'id':'2',
-    'title':"Apple2",
-    'description':'Is the best company'
+        'id':'2',
+        'title':"Apple2",
+        'description':'Is the best company'
     },
     {
-    'id':'3',
-    'title':"Apple3",
-    'description':'Is the best company'
+        'id':'3',
+        'title':"Apple3",
+        'description':'Is the best company'
     },
 ]
 
