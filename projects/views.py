@@ -1,7 +1,9 @@
+from django import forms
 from django.core import paginator
 from django.shortcuts import render, redirect
 from django.contrib.auth.decorators import login_required
-from .models import Project, Tag
+from django.contrib import messages
+from .models import Project
 from .forms import ProjectForm
 from .utils import searchProjects, paginationProjects
 

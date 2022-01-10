@@ -31,34 +31,6 @@
           <h3 class="singleProject__subtitle">About the Project</h3>
           <div class="singleProject__info">{{ project.description }}</div>
 
-          <div class="comments">
-            <h3 class="singleProject__subtitle">Feedback</h3>
-            <h5 class="project--rating">{{ project.vote_ratio }}% Postitive Feedback ({{ project.vote_total }} Vote{{ project.vote_ratio|pluralize:"s" }})</h5>
-
-            <form class="form" action="#" method="POST">
-              <!-- Textarea -->
-              <div class="form__field">
-                <label for="formInput#textarea">Comments: </label>
-                <textarea class="input input--textarea" name="message" id="formInput#textarea"
-                  placeholder="Write your comments here..."></textarea>
-              </div>
-              <input class="btn btn--sub btn--lg" type="submit" value="Comments" />
-            </form>
-
-            <div class="commentList">
-              <div class="comment">
-                <a href="">
-                  <img class="avatar avatar--md"
-                    src="" alt="user" />
-                </a>
-                <div class="comment__details">
-                  <a href="" class="comment__author"></a>
-                  <p class="comment__info"></p>
-                </div>
-              </div>
-            </div>
-
-          </div>
         </div>
       </div>
     </div>
